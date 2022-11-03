@@ -15,5 +15,9 @@ import {
 } from "react-bootstrap";
 
 export default function Produtos() {
-  return <>Produtos</>;
+  return (
+    <Card className="m-md-5 p-md-5">
+      <h2 className="text-center">Produtos</h2>
+    </Card>
+  );
 }
