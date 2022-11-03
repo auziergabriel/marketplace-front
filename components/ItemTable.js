@@ -19,7 +19,7 @@ export default function ItemTable(props) {
       <thead>
         <tr>
           {props.header.map((e) => (
-            <tr key={e}>{e} </tr>
+            <th key={e}>{e} </th>
           ))}
         </tr>
       </thead>
